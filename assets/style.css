@@ -21,11 +21,45 @@ header {
 }
 
 .navbar {
+    padding: 1% 7%;
+    background-color: rgba(0, 0, 0, 0.3);
     
 }
+.navbar-icon {
+    color: #ffff;
 
+}
+.home-icon {
+    color: #2980b9;
+    align-items: center;
+}
+
+.nav-link {
+    color: #ffff;
+    border-radius: 5px;
+    margin: 7px;
+    transition: .4s;
+
+}
+.nav-link:hover {
+    background-color: #2980b9;
+    color: #ffff;
+    transform: scale(1.1);
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: auto;
+}
 .banner-container {
     height: 100vh;
+}
+.banner-contents h1 {
+    font-size: 3.5rem;
+    background-color: rgba(7, 101, 189, 0.8);
+    font-family: 'Handlee';
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /* header ends here */
