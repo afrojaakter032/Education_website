@@ -1,14 +1,35 @@
+
+
 html {
     scroll-behavior: smooth;
+    margin: 0;
 }
 
 body {
     font-family: 'Montserrat Alternates', sans-serif;
+    
 
 }
 h1,h2,h3,h4,h5,h6 {
     /* font-family: 'Handlee'; */
     font-family: 'Roboto', sans-serif;
+}
+
+
+.section-title h3 {
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.hr-style {
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+    display: inline-block;
+
+    
+    
+    
+    
 }
 /* header stats here */
 header {
@@ -63,3 +84,35 @@ header {
 }
 
 /* header ends here */
+
+/* features starts */
+#features { 
+    background: #e8ded2;
+    padding: 5% 10%;
+}
+
+.features-col{
+    border: 1px solid #ff02c0;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: .4s;
+}
+
+.features-col:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.icon-style {
+    background: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+
+}
+
+.rounded-circle {
+
+}
+/* features ens */
