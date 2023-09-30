@@ -25,11 +25,6 @@ h1,h2,h3,h4,h5,h6 {
     border-bottom: none;
     width: 50px;
     display: inline-block;
-
-    
-    
-    
-    
 }
 /* header stats here */
 header {
@@ -116,3 +111,16 @@ header {
 
 }
 /* features ens */
+/* about me starts here */
+#about-me {
+    padding: 5% 10%;
+    background: #e8ded2;
+
+}
+#about-me p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    font-weight: light;
+}
+
+/* about me ends here */
