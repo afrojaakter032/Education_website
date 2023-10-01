@@ -116,17 +116,44 @@ header {
     padding: 5% 10%;
     background: #e8ded2;
 
+
 }
 #about-me p {
     margin-bottom: 0;
     font-size: 0.9rem;
     font-weight: light;
 }
+.text-algin {
+    text-align: justify !important;
+}
 
 .star i {
-    width: 10px;
+    width: 5px;
     padding: 10px;
     margin: 7px;
 }
-
 /* about me ends here */
+/* tutorial sstars here */
+
+#tutorail {
+    padding: 5% 10%;
+    background: #a3d2ca;
+}
+
+.card{
+    transition: .4s;
+    border: 1px solid #2980b9;
+}
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+/* tutorial ends here */
+
+/* feedback starts here */
+#feedback {
+    padding: 5px;
+    background: #5eaaa3;
+}
+
+/* feedback ends here */
