@@ -37,8 +37,16 @@ header {
 }
 
 .navbar {
-    padding: 1% 7%;
+    
     background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow-x: auto;
+    
+    
     
 }
 .navbar-icon {
@@ -123,9 +131,9 @@ header {
     font-size: 0.9rem;
     font-weight: light;
 }
-.text-algin {
+/* .text-algin {
     text-align: justify !important;
-}
+} */
 
 .star i {
     width: 5px;
