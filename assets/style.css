@@ -156,4 +156,25 @@ header {
     background: #5eaaa3;
 }
 
+.carousel-item {
+    text-align: center;
+    padding: 7% 15%;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.feedback-img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
 /* feedback ends here */
+/* contact me starts here */
+
+#contact {
+    padding: 2% 10%;
+    background: #5eaaa8;
+}
+
+/* contact me ends here */
