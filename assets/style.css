@@ -177,4 +177,26 @@ header {
     background: #5eaaa8;
 }
 
+.form-group label {
+    margin-bottom: 0;
+    font-weight: bold;
+
+}
+
 /* contact me ends here */
+/* footer starts here */
+footer {
+    padding: 1% 10%;
+    background: #056676;
+
+}
+footer a {
+    color: white;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: black;
+}
+
+/* footer ends here */
