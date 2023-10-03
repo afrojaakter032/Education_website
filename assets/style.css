@@ -78,7 +78,7 @@ header {
 .banner-container {
     height: 100vh;
 }
-.banner-contents h1 {
+.banner-container h1 {
     font-size: 3.5rem;
     background-color: rgba(7, 101, 189, 0.8);
     font-family: 'Handlee';
@@ -208,3 +208,13 @@ footer a:hover {
 }
 
 /* footer ends here */
+
+@media (max-width: 768px){
+    .nav-link {
+        background: rgba(0, 0, 0, 0.7);
+    }
+    .banner-container h1 {
+        font-size: 2.5rem;
+
+    }
+}
