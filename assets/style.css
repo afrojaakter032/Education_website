@@ -37,8 +37,6 @@ header {
 }
 
 .navbar {
-    
-    
     position: fixed;
     width: 100%;
     left: 0;
@@ -46,14 +44,11 @@ header {
     top: 0;
     overflow-x: auto;
     z-index: 1;
-    
-    
-    
+    padding: 0;
 }
 .nav-bg {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
-
 }
 .navbar-icon {
     color: #ffff;
